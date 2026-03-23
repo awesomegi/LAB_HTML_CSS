@@ -3,109 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 2 of Introduction to HTML</title>
+    <title>Rock Music - Page 2 🎸</title>
     <style>
+
     body {
         background-color: #f5f5f5;
         text-align: center;
+        font-family: Arial, sans-serif;
     }
 
-    h3 {
-        color: rgb(17, 49, 91);
-    }
+    h3 { color: rgb(17, 49, 91); }
 
     p {
         color: cadetblue;
-        text-align: center;
         font-size: 14px;
     }
-    p.form-p {
+
+    p.title1 {
         color: rgb(17, 49, 91);
-        font-size: 16px;
+        font-size: 18px;
+        margin-top: 30px;
     }
 
-     select {
-        padding: 5px;
+    ul, ol {
+        display: inline-block;
+        text-align: left;
+        color: rgb(17, 49, 91);
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    table { margin: 0 auto; border-collapse: collapse; font-size: 14px; }
+    th { background-color: rgb(17, 49, 91); color: white; padding: 10px 16px; }
+    td { padding: 8px 16px; color: cadetblue; text-align: left; }
+    tr:nth-child(even) { background-color: #e0ecf4; }
+
+    hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    /* Form */
+    form {
+        display: inline-block;
+        text-align: left;
+        background-color: #ffffff;
+        padding: 24px 32px;
+        border-radius: 10px;
+    }
+
+    label { color: rgb(17, 49, 91); font-size: 14px; font-weight: bold; }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    select {
+        width: 100%;
+        padding: 8px;
         font-size: 14px;
         background-color: rgb(17, 49, 91);
         color: white;
-    }    
-
-    button{
-        background-color: lightgreen;
+        border-radius: 4px;
         border: none;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+    }
+
+    input[type="submit"] {
+        margin-top: 8px;
+        background-color: rgb(17, 49, 91);
+        color: white;
+        border: none;
+        padding: 10px 24px;
+        font-size: 15px;
+        border-radius: 6px;
         cursor: pointer;
+        width: 100%;
     }
-    
-    a {
-        color: black;
-        text-decoration: none;
+
+    input[type="submit"]:hover { background-color: cadetblue; }
+
+    a.toturial-link { 
+        color: rgb(93, 157, 93); 
     }
-        a:hover {
-            text-decoration: underline;
-        }
 
     .return-btn {
-    background-color: lightblue;
-    padding: 10px 20px;
-    display: inline-block;
-}
+        background-color: lightblue;
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 6px;
+    }
 
-</style>
+    a{
+        color: rgb(17, 49, 91);
+    }
+
+    </style>
 </head>
 
+<body dir="auto">
+    <h3>Welcome to the second page of Rock Music! 🎸<br>
+    Here, we will explore more about rock bands, festivals, and how to get started.</h3>
+    <img src= "rock.jpg" alt="Rock Music Image" width="600" height="400">
 
-<body>
-   <h3>Welcome to the second page of the Introduction to HTML! <br>Here, we will explore more HTML elements and their usage.</h3>
-    
-    <img src="image.jpg" alt="Example Image" width="300">
-    <p>This is an example of an image included in the HTML page.</p>
+    <hr>
 
-<hr>
+    <!-- Famous Rock Bands and Artists -->
+    <p class="title1"><b><i>What are some famous rock bands and artists?</i></b></p>
+    <p>Some of the most iconic rock bands and artists include Led Zeppelin, The Rolling Stones, The Beatles, Pink Floyd, Queen, AC/DC, and Nirvana. <br>Each of these acts shaped the sound and culture of rock music in their own unique way.</p>
+    <p>........</p>
+
+    <!-- How Rock Music Evolved -->
+    <p class="title1"><b><i>How has rock music evolved over time?</i></b></p>
+    <p>Rock music began in the 1950s with artists like Chuck Berry and Elvis Presley, evolved into the British Invasion of the 1960s, <br> expanded into hard rock and progressive rock in the 1970s, and later gave rise to punk, grunge, and alternative rock in the following decades.</p>
+    <p>........</p>
+
+    <!-- Subgenres -->
+    <p class="title1"><b><i>What are some subgenres of rock music?</i></b></p>
+    <p>Rock music has many subgenres, including:</p>
+    <ul>
+        <li>Classic Rock</li>
+        <li>Punk Rock</li>
+        <li>Heavy Metal</li>
+        <li>Grunge</li>
+        <li>Alternative Rock</li>
+        <li>Indie Rock</li>
+    </ul>
+    <p>........</p>
+
+    <!-- Cultural Influence -->
+    <p class="title1"><b><i>How does rock music influence culture and society?</i></b></p>
+    <p>Rock music has had a massive impact on fashion, language, film, and social movements. It has been a voice for youth rebellion, political activism, and artistic freedom since its early days.</p>
+    <p>........</p>
+
+    <hr>
+
+    <!-- Iconic Festivals Table -->
+    <p class="title1"><b><i>What are some iconic rock music festivals?</i></b></p>
+    <table border="1">
+        <tr>
+            <th>Festival</th>
+            <th>Location</th>
+            <th>Known For</th>
+        </tr>
+        <tr>
+            <td>Woodstock</td>
+            <td>New York, USA</td>
+            <td>Legendary 1969 festival, symbol of the counterculture movement</td>
+        </tr>
+        <tr>
+            <td>Glastonbury</td>
+            <td>Somerset, UK</td>
+            <td>One of the world's largest and most famous music festivals</td>
+        </tr>
+        <tr>
+            <td>Download Festival</td>
+            <td>Derbyshire, UK</td>
+            <td>Dedicated to rock and metal music</td>
+        </tr>
+        <tr>
+            <td>Rock in Rio</td>
+            <td>Rio de Janeiro, Brazil</td>
+            <td>One of the largest music festivals in the world</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Getting Started -->
+    <p class="title1"><b><i>How can I get started with playing rock music?</i></b></p>
+    <p><b>Here are some steps to begin your rock music journey:</b></p>
+    <ol>
+        <li>Choose an instrument — most commonly electric guitar, bass, or drums.</li>
+        <li>Learn the basics through online tutorials or a local music teacher.</li>
+        <li>Listen to a wide range of rock music to develop your style and taste.</li>
+        <li>Practice regularly and try playing along to your favorite songs.</li>
+        <li>Join or form a band to gain experience playing with others.</li>
+        <li>Watch a tutorial on learning how to play the bass in rock music<a class="toturial-link" href="https://youtu.be/upMJaa_rL7k?si=9F3-zJT-RK5It7Xy" target="_blank"> <b>here</b></a></li>
+    </ol>
+    <p>........</p>
+
+    <hr>
 
 
-<p  class="form-p">Fill out the form below:</p>
+    <!-- Rock News Subscription Form -->
+    <p class="title1"><b><i>Subscribe to Rock News 🎸</i></b></p>
+    <p>Stay updated with the latest rock music news, releases, and festival announcements!</p>
 
-<form action="success.html">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
+    <form action="success.html">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
-    <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
 
-    <input type="submit" value="Submit">
-</form>
+        <label for="favorite-band">Favorite Rock Band:</label><br>
+        <input type="text" id="favorite-band" name="favorite-band" placeholder="e.g. Queen, Nirvana..."><br><br>
 
-<p>This form collects basic user information like name, email, and a message.</p>
-   
-<hr>    
-          <label for="options">Choose an option:</label>
-            <select id="options" name="options">
-            <option value="option1"> You are </option>    
-            <option value="option1">Awsome!</option>
-            <option value="option2">Amazing!</option>
-             <option value="option3">The GOAT!!</option> 
-            </select>
-        <p>This is an example of a dropdown menu.</p>
+        <label for="subgenre">Favorite Subgenre:</label><br>
+        <select id="subgenre" name="subgenre">
+            <option value="">-- Select a subgenre --</option>
+            <option value="classic-rock">Classic Rock</option>
+            <option value="punk-rock">Punk Rock</option>
+            <option value="heavy-metal">Heavy Metal</option>
+            <option value="grunge">Grunge</option>
+            <option value="alternative">Alternative Rock</option>
+            <option value="indie">Indie Rock</option>
+        </select><br><br>
 
-<hr>
+        <input type="submit" value="Subscribe 🤘">
+ 
+    </form> 
 
-    <button type="button" onclick="alert('BOOO 👻')">Click Me!</button>  
-    <p>This button will display an alert message when clicked.</p>
 
-<hr>
+    <hr>
 
-<a href="index.html" class="return-btn">Back to Home</a>    
-<p>Click the button above to return to the home page.</p>
-
+    <a href="index.html" class="return-btn">⬅ Back to Home</a>
+    <p>Click the button above to return to the main Rock Music page.</p>
 
 </body>
 </html>

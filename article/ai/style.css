@@ -4,12 +4,12 @@
 :root {
     --bg:           #050510;
     --bg-card:      #0d0d1f;
-    --neon-cyan:    #00f5ff;
+    --neon-cyan:    #00e5ff;
     --neon-pink:    #ff00aa;
     --neon-purple:  #bf00ff;
     --neon-green:   #00ff88;
-    --white:        #e8e8ff;
-    --muted:        #7777aa;
+    --white:        #ffffff;
+    --muted:        #b0b0d8;
     --border:       rgba(0, 245, 255, 0.2);
 }
 
@@ -297,8 +297,8 @@ ol li::marker { color: var(--neon-pink); }
 /* QUOTE */
 .quote {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 0.9rem;
-    color: var(--neon-purple);
+    font-size: 1rem;
+    color: var(--white);
     text-shadow: 0 0 10px var(--neon-purple);
     border-left: 3px solid var(--neon-purple);
     padding: 12px 20px;

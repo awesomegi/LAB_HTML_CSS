@@ -23,7 +23,7 @@
 /* SCROLLBAR */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--neon-purple); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: var(--neon-purple); border-radius: 2px; }
 
 /* BODY */
 body {
